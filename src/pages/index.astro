@@ -1,0 +1,11 @@
+---
+import MainLayout from "../layouts/Main.astro";
+import Counter from "../components/Counter";
+import "./index.css";
+---
+
+<MainLayout>
+  <Counter client:visible>
+    <h1>Hello, Solid!</h1>
+  </Counter>
+</MainLayout>

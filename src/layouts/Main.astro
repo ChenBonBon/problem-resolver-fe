@@ -1,0 +1,24 @@
+---
+import { css } from "../../styled-system/css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>小镇做题家 - Problem resolver</title>
+  </head>
+  <body>
+    <main
+      class={css({
+        fontFamily: "system-ui",
+        margin: 0,
+        padding: "2rem",
+      })}
+    >
+      <slot />
+    </main>
+  </body>
+</html>
